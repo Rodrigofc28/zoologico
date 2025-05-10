@@ -37,4 +37,5 @@ estando na pasta ReactApp2.Server
 ```bash
     cd ReactApp2
     npm install
+```
 ![Logo do Projeto](./imagens/telaInicial.png)
