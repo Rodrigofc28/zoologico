@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usu\u00E1rio\\source\\repos\\ReactApp2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B064DBD-1773-48BD-818B-D45B2471DFF0}|ReactApp2.Server\\ReactApp2.Server.csproj|c:\\users\\usu\u00E1rio\\source\\repos\\reactapp2\\reactapp2.server\\reactapp2.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8B064DBD-1773-48BD-818B-D45B2471DFF0}|ReactApp2.Server\\ReactApp2.Server.csproj|solutionrelative:reactapp2.server\\reactapp2.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReactApp2.Server",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\source\\repos\\ReactApp2\\ReactApp2.Server\\ReactApp2.Server.csproj",
+              "RelativeDocumentMoniker": "ReactApp2.Server\\ReactApp2.Server.csproj",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\source\\repos\\ReactApp2\\ReactApp2.Server\\ReactApp2.Server.csproj",
+              "RelativeToolTip": "ReactApp2.Server\\ReactApp2.Server.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-09T17:13:53.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
