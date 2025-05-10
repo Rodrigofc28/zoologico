@@ -38,4 +38,11 @@ estando na pasta ReactApp2.Server
     cd ReactApp2
     npm install
 ```
+## Imagem da Tela principal 
 ![Logo do Projeto](./imagens/telaInicial.png)
+## Imagem da Tela Cadastro de animais
+![Logo do Projeto](./imagens/TelaCadastro.png)
+## Imagem da Tela cadastro de cuidados
+![Logo do Projeto](./imagens/cadastroCuidados.png)
+## Imagem da Tela lista de cuidados 
+![Logo do Projeto](./imagens/listacuidados.png)
