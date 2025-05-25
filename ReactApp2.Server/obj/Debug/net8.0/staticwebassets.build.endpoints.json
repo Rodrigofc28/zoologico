@@ -823,6 +823,88 @@
       ]
     },
     {
+      "Route": "uploads/d164c84c-88a6-4f32-8c31-2a672db5997a.hquxtmjfbo.jpeg",
+      "AssetFile": "uploads/d164c84c-88a6-4f32-8c31-2a672db5997a.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "265102"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2V64Slxn8Pt8Nk4uml7Uu55Dsb6GW+7w7zHgqB/tPTk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 11:04:54 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hquxtmjfbo"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2V64Slxn8Pt8Nk4uml7Uu55Dsb6GW+7w7zHgqB/tPTk="
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/d164c84c-88a6-4f32-8c31-2a672db5997a.jpeg"
+        }
+      ]
+    },
+    {
+      "Route": "uploads/d164c84c-88a6-4f32-8c31-2a672db5997a.jpeg",
+      "AssetFile": "uploads/d164c84c-88a6-4f32-8c31-2a672db5997a.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "265102"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2V64Slxn8Pt8Nk4uml7Uu55Dsb6GW+7w7zHgqB/tPTk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 11:04:54 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2V64Slxn8Pt8Nk4uml7Uu55Dsb6GW+7w7zHgqB/tPTk="
+        }
+      ]
+    },
+    {
       "Route": "uploads/e527e7aa-fbb1-4e96-bccc-76dc6add29bd.hquxtmjfbo.jpeg",
       "AssetFile": "uploads/e527e7aa-fbb1-4e96-bccc-76dc6add29bd.jpeg",
       "Selectors": [],

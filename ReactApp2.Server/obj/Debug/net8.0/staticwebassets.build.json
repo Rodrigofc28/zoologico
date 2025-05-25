@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zzX+ltpHv1mqBGcR55wBiSnYXpNc9S2ZKam2M7wdZDQ=",
+  "Hash": "dXKKgTM3WMKJcDQ+5OU7U6n0A/gdYwU4GimwuYpS6Iw=",
   "Source": "ReactApp2.Server",
   "BasePath": "_content/ReactApp2.Server",
   "Mode": "Default",
@@ -237,6 +237,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\c9757e85-a70e-4a7c-be18-bad8542c4c9e.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\d164c84c-88a6-4f32-8c31-2a672db5997a.jpeg",
+      "SourceId": "ReactApp2.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\",
+      "BasePath": "_content/ReactApp2.Server",
+      "RelativePath": "uploads/d164c84c-88a6-4f32-8c31-2a672db5997a#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hquxtmjfbo",
+      "Integrity": "2V64Slxn8Pt8Nk4uml7Uu55Dsb6GW+7w7zHgqB/tPTk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\d164c84c-88a6-4f32-8c31-2a672db5997a.jpeg"
     },
     {
       "Identity": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\e527e7aa-fbb1-4e96-bccc-76dc6add29bd.jpeg",
@@ -1078,6 +1099,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-JzFl8cEgARB6rwhiJomLHnH6txXf8KWteTAYS7mbM+o="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/d164c84c-88a6-4f32-8c31-2a672db5997a.hquxtmjfbo.jpeg",
+      "AssetFile": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\d164c84c-88a6-4f32-8c31-2a672db5997a.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "265102"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2V64Slxn8Pt8Nk4uml7Uu55Dsb6GW+7w7zHgqB/tPTk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 11:04:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hquxtmjfbo"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/d164c84c-88a6-4f32-8c31-2a672db5997a.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2V64Slxn8Pt8Nk4uml7Uu55Dsb6GW+7w7zHgqB/tPTk="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/d164c84c-88a6-4f32-8c31-2a672db5997a.jpeg",
+      "AssetFile": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\d164c84c-88a6-4f32-8c31-2a672db5997a.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "265102"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2V64Slxn8Pt8Nk4uml7Uu55Dsb6GW+7w7zHgqB/tPTk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 11:04:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2V64Slxn8Pt8Nk4uml7Uu55Dsb6GW+7w7zHgqB/tPTk="
         }
       ]
     },
