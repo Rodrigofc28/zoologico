@@ -6,6 +6,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ReactApp2.Server.Data; // Namespace onde está o AppDbContext
+using ReactApp2.Server.Dtos;
+
 using ReactApp2.Server.Models; // Namespace do modelo Animal
 
 
@@ -16,48 +18,82 @@ namespace ReactApp2.Server.Controllers
 public class AnimalsController : ControllerBase
 {
     private readonly AppDbContext _context;
-
+    
+    private readonly string _uploadFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads");//salva a imagem no diretorio raiz
+    
     public AnimalsController(AppDbContext context)
     {
         _context = context;
     }
 
-    // Método GET para buscar todos os animais
-       [HttpGet]
-        public async Task<ActionResult<IEnumerable<Animal>>> Get()
-        {
-            try
-            {
-                // Obtenha os animais do banco de dados
-                var animais = await _context.Animais.ToListAsync();
+    [HttpGet]
+public async Task<ActionResult<IEnumerable<object>>> Get()
+{
+    try
+    {
+        var baseUrl = $"{Request.Scheme}://{Request.Host}/uploads/";
 
-                // Retorna a lista de animais no formato JSON (o retorno padrão do Ok() já é JSON)
-                return Ok(animais); // Retorna status 200 com os dados em JSON
-            }
-            catch (Exception ex)
+        var animais = await _context.Animais
+            .Select(a => new
             {
-                // Caso haja algum erro, retorna status 500 com a mensagem do erro
-                return StatusCode(500, $"Erro ao tentar recuperar os dados: {ex.Message}");
-            }
-        }
+                a.Id,
+                a.Nome,
+                a.Descricao,
+                a.DataNascimento,
+                a.Especie,
+                a.Habitat,
+                a.PaisOrigem,
+                imagem = string.IsNullOrEmpty(a.Imagem) ? null : baseUrl + a.Imagem
+            })
+            .ToListAsync();
+
+        return Ok(animais);
+    }
+    catch (Exception ex)
+    {
+        return StatusCode(500, $"Erro ao tentar recuperar os dados: {ex.Message}");
+    }
+}
+
 
 
             // Método POST para cadastrar um novo animal
   
-        [HttpPost]
-        public async Task<ActionResult<Animal>> Post(Animal animal)
+       [HttpPost]
+        [Consumes("multipart/form-data")]
+        public async Task<IActionResult> Post([FromForm] AnimalDto dto, [FromForm] IFormFile imagem, [FromForm] Animal animal)
         {
             try
             {
+                if (imagem != null && imagem.Length > 0)
+                {
+                    // Garante que a pasta de upload existe
+                    if (!Directory.Exists(_uploadFolder))
+                        Directory.CreateDirectory(_uploadFolder);
+
+                    var fileName = Guid.NewGuid().ToString() + Path.GetExtension(imagem.FileName);
+                    var filePath = Path.Combine(_uploadFolder, fileName);
+
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await imagem.CopyToAsync(stream);
+                    }
+
+                    // Salva apenas o nome do arquivo ou caminho relativo
+                    animal.Imagem = fileName;
+                }
+
                 _context.Animais.Add(animal);
                 await _context.SaveChangesAsync();
-                return CreatedAtAction(nameof(Get), new { id = animal.Id }, animal); // Isso retorna JSON do animal salvo
+
+                return CreatedAtAction(nameof(Get), new { id = animal.Id }, animal);
             }
             catch (Exception ex)
             {
-                return StatusCode(500, new { erro = ex.Message }); // Também retorna JSON de erro
+                return StatusCode(500, new { erro = ex.Message });
             }
         }
+
         // DELETE: api/animals/{id}
     // Método DELETE
     [HttpDelete("{id}")]
@@ -79,26 +115,40 @@ public class AnimalsController : ControllerBase
 // PUT: api/animals/{id}
 // Método para editar um animal
 [HttpPut("{id}")]
-public async Task<IActionResult> Put(int id, Animal animal)
+[Consumes("multipart/form-data")]
+public async Task<IActionResult> Put(int id,[FromForm] AnimalDto dto, [FromForm] Animal animal, [FromForm] IFormFile? imagem)
 {
     if (id != animal.Id)
-    {
         return BadRequest(new { erro = "ID do animal não confere com o ID fornecido na URL." });
-    }
 
     var animalExistente = await _context.Animais.FindAsync(id);
     if (animalExistente == null)
-    {
         return NotFound(new { erro = "Animal não encontrado." });
-    }
 
-    // Atualiza os campos
+    // Atualiza os campos básicos
     animalExistente.Nome = animal.Nome;
     animalExistente.Descricao = animal.Descricao;
     animalExistente.DataNascimento = animal.DataNascimento;
     animalExistente.Especie = animal.Especie;
     animalExistente.Habitat = animal.Habitat;
     animalExistente.PaisOrigem = animal.PaisOrigem;
+
+    // Atualiza a imagem se for enviada uma nova
+    if (imagem != null && imagem.Length > 0)
+    {
+        if (!Directory.Exists(_uploadFolder))
+            Directory.CreateDirectory(_uploadFolder);
+
+        var fileName = Guid.NewGuid().ToString() + Path.GetExtension(imagem.FileName);
+        var filePath = Path.Combine(_uploadFolder, fileName);
+
+        using (var stream = new FileStream(filePath, FileMode.Create))
+        {
+            await imagem.CopyToAsync(stream);
+        }
+
+        animalExistente.Imagem = fileName;
+    }
 
     try
     {
@@ -110,6 +160,7 @@ public async Task<IActionResult> Put(int id, Animal animal)
         return StatusCode(500, new { erro = "Erro ao atualizar animal: " + ex.Message });
     }
 }
+
 
 
         }

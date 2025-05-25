@@ -18,6 +18,8 @@ interface Animal {
     especie: string;
     habitat: string;
     paisOrigem: string;
+    imagem:File | null;
+    
 }
 
 interface Cuidado {
@@ -32,7 +34,7 @@ function App() {
     const [animais, setAnimais] = useState<Animal[]>([]);
     const [form, setForm] = useState<Animal>({
         nome: '', descricao: '', dataNascimento: '',
-        especie: '', habitat: '', paisOrigem: ''
+        especie: '', habitat: '', paisOrigem: '',imagem:null
     });
     //modal cadastro
     const [showModal, setShowModal] = useState(false); // Controle da visibilidade do modal
@@ -54,10 +56,11 @@ function App() {
     // Função para carregar os animais do backend
     const [animalSelecionadoId, setAnimalSelecionadoId] = useState<number | null>(null);
     const [buscaNome, setBuscaNome] = useState('');
-
+    const [imagePreview, setImagePreview] = useState<string | null>(null);
    useEffect(() => {
     fetchAnimais();
 }, []);
+   
     function abrirEdicao(animal: Animal) {
         setAnimalEditando(animal);
         setForm(animal); // usa o mesmo form do cadastro
@@ -117,39 +120,51 @@ async function carregarCuidados(animalId: number) {
 }
 
 async function cadastrarAnimal() {
-    if (!form.nome || !form.descricao || !form.dataNascimento || !form.especie || !form.habitat || !form.paisOrigem) {
-        
-        Swal.fire('Erro!', 'Por favor, preencha todos os campos.', 'error'); 
+    if (!form.nome || !form.descricao || !form.dataNascimento || !form.especie || !form.habitat || !form.paisOrigem || !form.imagem) {
+        Swal.fire('Erro!', 'Por favor, preencha todos os campos, incluindo a imagem.', 'error');
         return;
     }
 
     try {
-        console.log("Enviando dados para o backend:", form);
+        const formData = new FormData();
+        formData.append('nome', form.nome);
+        formData.append('descricao', form.descricao);
+        formData.append('dataNascimento', form.dataNascimento);
+        formData.append('especie', form.especie);
+        formData.append('habitat', form.habitat);
+        formData.append('paisOrigem', form.paisOrigem);
+        formData.append('imagem', form.imagem); // <- campo de imagem do tipo File
 
-        const res = await axios.post('http://127.0.0.1:5000/api/animals', form);
+        const res = await axios.post('http://127.0.0.1:5000/api/animals', formData);
 
         if (res.data) {
             console.log("Animal salvo:", res.data);
         }
 
-        setForm({ nome: '', descricao: '', dataNascimento: '', especie: '', habitat: '', paisOrigem: '' });
+        setForm({ nome: '', descricao: '', dataNascimento: '', especie: '', habitat: '', paisOrigem: '', imagem: null });
         fetchAnimais(); // Recarrega os animais após o cadastro
-      
+
         Swal.fire({
-                title: "Animal cadastrado com sucesso!",
-                icon: "success",
-                draggable: true
-                });
+            title: "Animal cadastrado com sucesso!",
+            icon: "success",
+            draggable: true
+        });
+
     } catch (error: any) {
         if (error.response) {
             console.error('Erro do backend:', error.response.data);
         } else {
             console.error('Erro ao enviar a requisição:', error.message);
         }
-        Swal.fire('Erro!', 'Não foi possível salvar o animal. Verifique os dados e tente novamente.', 'error'); 
-        
+        Swal.fire('Erro!', 'Não foi possível salvar o animal. Verifique os dados e tente novamente.', 'error');
     }
 }
+
+
+
+
+
+      
 async function removerAnimal(id?: number) {
     if (!id) return;
 
@@ -177,31 +192,46 @@ try {
 
 }
 
-
 async function atualizarAnimal() {
     if (!form.id) return;
 
     try {
-    const res = await axios.put(`http://127.0.0.1:5000/api/animals/${form.id}`, form);
+        const formData = new FormData();
+        formData.append('id', form.id.toString());
+        formData.append('nome', form.nome);
+        formData.append('descricao', form.descricao);
+        formData.append('dataNascimento', form.dataNascimento);
+        formData.append('especie', form.especie);
+        formData.append('habitat', form.habitat);
+        formData.append('paisOrigem', form.paisOrigem);
 
-    Swal.fire({
-        icon: 'success',
-        title: 'Atualizado!',
-        text: res.data.mensagem || "Animal atualizado com sucesso.",
-    });
+        if (form.imagem) {
+            formData.append('imagem', form.imagem); // Só envia se houver uma imagem nova
+        }
 
-    fetchAnimais();
-    setEditModal(false);
-} catch (error: any) {
-    const msg = error.response?.data?.erro || error.message || "Erro ao atualizar.";
+        const res = await axios.put(
+            `http://127.0.0.1:5000/api/animals/${form.id}`,
+            formData
+        );
 
-    Swal.fire({
-        icon: 'error',
-        title: 'Erro!',
-        text: msg,
-    });
+        Swal.fire({
+            icon: 'success',
+            title: 'Atualizado!',
+            text: res.data.mensagem || "Animal atualizado com sucesso.",
+        });
+
+        fetchAnimais();
+        setEditModal(false);
+    } catch (error: any) {
+        const msg = error.response?.data?.erro || error.message || "Erro ao atualizar.";
+        Swal.fire({
+            icon: 'error',
+            title: 'Erro!',
+            text: msg,
+        });
+    }
 }
-}
+
 
  // Função para abrir o modal de cadastro de cuidado
     function abrirCadastroCuidado(animalId: number) {
@@ -280,7 +310,8 @@ async function cadastrarCuidado() {
                         dataNascimento: "",
                         especie: "",
                         habitat: "",
-                        paisOrigem: ""
+                        paisOrigem: "",
+                        imagem:null
                     });
                     setShowModal(true);
                 }}
@@ -301,7 +332,8 @@ async function cadastrarCuidado() {
                         dataNascimento: "",
                         especie: "",
                         habitat: "",
-                        paisOrigem: ""
+                        paisOrigem: "",
+                        imagem:null
                     });
                     setShowModal(false);
                 }}
@@ -329,7 +361,7 @@ async function cadastrarCuidado() {
     <ListaCuidadosModal
         cuidados={cuidadosAnimal}
         onClose={() => setShowListaCuidadosModal(false)}
-        onRefresh={() => carregarCuidados(animalSelecionadoId)} // aqui está resolvido
+        onRefresh={() => carregarCuidados(animalSelecionadoId)} 
     />
 )}
             
@@ -337,6 +369,7 @@ async function cadastrarCuidado() {
             <table className="tabela-com-borda">
                 <thead>
                     <tr>
+                        <th>Foto</th>
                         <th>Nome</th>
                         <th>Descrição</th>
                         <th>Data Nasc.</th>
@@ -353,7 +386,12 @@ async function cadastrarCuidado() {
                         </tr>
                     ) : (
                         animais.map(a => (
+                          
                             <tr key={a.id}>
+                                <td> 
+                                    <img src={a.imagem as unknown as string} alt={`Imagem de ${a.imagem}`} width={50} />
+                                </td>
+                               
                                 <td>{a.nome}</td>
                                 <td>{a.descricao}</td>
                                 <td>{format(new Date(a.dataNascimento), 'dd/MM/yyyy')}</td>
@@ -376,7 +414,7 @@ async function cadastrarCuidado() {
                 </tbody>
             </table>
            
-
+                    <footer>Desenvolvido por Rodrigo de Freitas Camargo</footer>
             
         </div>
     );

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EktqaY9muHsCmmeoEa4WgRvgpCSiqf08NgtK1hLP8rA=",
+  "Hash": "zzX+ltpHv1mqBGcR55wBiSnYXpNc9S2ZKam2M7wdZDQ=",
   "Source": "ReactApp2.Server",
   "BasePath": "_content/ReactApp2.Server",
   "Mode": "Default",
@@ -18,7 +18,1150 @@
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
     }
   ],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "ReactApp2.Server\\wwwroot",
+      "Source": "ReactApp2.Server",
+      "ContentRoot": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\",
+      "BasePath": "_content/ReactApp2.Server",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\1dbecec2-3a78-43d7-baa9-98bb8944532f.jpg",
+      "SourceId": "ReactApp2.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\",
+      "BasePath": "_content/ReactApp2.Server",
+      "RelativePath": "uploads/1dbecec2-3a78-43d7-baa9-98bb8944532f#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bjzlq46pqy",
+      "Integrity": "JzFl8cEgARB6rwhiJomLHnH6txXf8KWteTAYS7mbM+o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\1dbecec2-3a78-43d7-baa9-98bb8944532f.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\263629b4-9a63-497e-b252-fbb8d375513d.jpg",
+      "SourceId": "ReactApp2.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\",
+      "BasePath": "_content/ReactApp2.Server",
+      "RelativePath": "uploads/263629b4-9a63-497e-b252-fbb8d375513d#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bjzlq46pqy",
+      "Integrity": "JzFl8cEgARB6rwhiJomLHnH6txXf8KWteTAYS7mbM+o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\263629b4-9a63-497e-b252-fbb8d375513d.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\759c384b-8401-45aa-a9ec-eaa558ced8d4.jpg",
+      "SourceId": "ReactApp2.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\",
+      "BasePath": "_content/ReactApp2.Server",
+      "RelativePath": "uploads/759c384b-8401-45aa-a9ec-eaa558ced8d4#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bjzlq46pqy",
+      "Integrity": "JzFl8cEgARB6rwhiJomLHnH6txXf8KWteTAYS7mbM+o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\759c384b-8401-45aa-a9ec-eaa558ced8d4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\804110a5-2dfb-4f3b-a5f3-6dc95a96c296.jpg",
+      "SourceId": "ReactApp2.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\",
+      "BasePath": "_content/ReactApp2.Server",
+      "RelativePath": "uploads/804110a5-2dfb-4f3b-a5f3-6dc95a96c296#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bjzlq46pqy",
+      "Integrity": "JzFl8cEgARB6rwhiJomLHnH6txXf8KWteTAYS7mbM+o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\804110a5-2dfb-4f3b-a5f3-6dc95a96c296.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\9b954428-7ab6-446c-aaec-60bc9e6a8d0c.jpg",
+      "SourceId": "ReactApp2.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\",
+      "BasePath": "_content/ReactApp2.Server",
+      "RelativePath": "uploads/9b954428-7ab6-446c-aaec-60bc9e6a8d0c#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bjzlq46pqy",
+      "Integrity": "JzFl8cEgARB6rwhiJomLHnH6txXf8KWteTAYS7mbM+o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\9b954428-7ab6-446c-aaec-60bc9e6a8d0c.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\9d72d8f5-d5cb-445e-9b5d-98c4d4d608a2.jpg",
+      "SourceId": "ReactApp2.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\",
+      "BasePath": "_content/ReactApp2.Server",
+      "RelativePath": "uploads/9d72d8f5-d5cb-445e-9b5d-98c4d4d608a2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bjzlq46pqy",
+      "Integrity": "JzFl8cEgARB6rwhiJomLHnH6txXf8KWteTAYS7mbM+o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\9d72d8f5-d5cb-445e-9b5d-98c4d4d608a2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\b8344ef5-7f07-4e2b-b42a-708336b5c6be.jpeg",
+      "SourceId": "ReactApp2.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\",
+      "BasePath": "_content/ReactApp2.Server",
+      "RelativePath": "uploads/b8344ef5-7f07-4e2b-b42a-708336b5c6be#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hquxtmjfbo",
+      "Integrity": "2V64Slxn8Pt8Nk4uml7Uu55Dsb6GW+7w7zHgqB/tPTk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\b8344ef5-7f07-4e2b-b42a-708336b5c6be.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\b992b6b3-ea7a-4d44-8fb7-7f593acd3e46.jpg",
+      "SourceId": "ReactApp2.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\",
+      "BasePath": "_content/ReactApp2.Server",
+      "RelativePath": "uploads/b992b6b3-ea7a-4d44-8fb7-7f593acd3e46#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "z997e2a540",
+      "Integrity": "Sd9siNcpm9nQOX7vDJZV8P8HbfUus6jRoKQTK+8vp9Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\b992b6b3-ea7a-4d44-8fb7-7f593acd3e46.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\c37db1ff-9210-4b1b-8a90-2ead0e75045f.jpg",
+      "SourceId": "ReactApp2.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\",
+      "BasePath": "_content/ReactApp2.Server",
+      "RelativePath": "uploads/c37db1ff-9210-4b1b-8a90-2ead0e75045f#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bjzlq46pqy",
+      "Integrity": "JzFl8cEgARB6rwhiJomLHnH6txXf8KWteTAYS7mbM+o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\c37db1ff-9210-4b1b-8a90-2ead0e75045f.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\c9757e85-a70e-4a7c-be18-bad8542c4c9e.jpg",
+      "SourceId": "ReactApp2.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\",
+      "BasePath": "_content/ReactApp2.Server",
+      "RelativePath": "uploads/c9757e85-a70e-4a7c-be18-bad8542c4c9e#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bjzlq46pqy",
+      "Integrity": "JzFl8cEgARB6rwhiJomLHnH6txXf8KWteTAYS7mbM+o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\c9757e85-a70e-4a7c-be18-bad8542c4c9e.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\e527e7aa-fbb1-4e96-bccc-76dc6add29bd.jpeg",
+      "SourceId": "ReactApp2.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\",
+      "BasePath": "_content/ReactApp2.Server",
+      "RelativePath": "uploads/e527e7aa-fbb1-4e96-bccc-76dc6add29bd#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hquxtmjfbo",
+      "Integrity": "2V64Slxn8Pt8Nk4uml7Uu55Dsb6GW+7w7zHgqB/tPTk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\e527e7aa-fbb1-4e96-bccc-76dc6add29bd.jpeg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "uploads/1dbecec2-3a78-43d7-baa9-98bb8944532f.bjzlq46pqy.jpg",
+      "AssetFile": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\1dbecec2-3a78-43d7-baa9-98bb8944532f.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72064"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JzFl8cEgARB6rwhiJomLHnH6txXf8KWteTAYS7mbM+o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 10:30:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bjzlq46pqy"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/1dbecec2-3a78-43d7-baa9-98bb8944532f.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JzFl8cEgARB6rwhiJomLHnH6txXf8KWteTAYS7mbM+o="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/1dbecec2-3a78-43d7-baa9-98bb8944532f.jpg",
+      "AssetFile": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\1dbecec2-3a78-43d7-baa9-98bb8944532f.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72064"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JzFl8cEgARB6rwhiJomLHnH6txXf8KWteTAYS7mbM+o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 10:30:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JzFl8cEgARB6rwhiJomLHnH6txXf8KWteTAYS7mbM+o="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/263629b4-9a63-497e-b252-fbb8d375513d.bjzlq46pqy.jpg",
+      "AssetFile": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\263629b4-9a63-497e-b252-fbb8d375513d.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72064"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JzFl8cEgARB6rwhiJomLHnH6txXf8KWteTAYS7mbM+o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 10:23:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bjzlq46pqy"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/263629b4-9a63-497e-b252-fbb8d375513d.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JzFl8cEgARB6rwhiJomLHnH6txXf8KWteTAYS7mbM+o="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/263629b4-9a63-497e-b252-fbb8d375513d.jpg",
+      "AssetFile": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\263629b4-9a63-497e-b252-fbb8d375513d.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72064"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JzFl8cEgARB6rwhiJomLHnH6txXf8KWteTAYS7mbM+o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 10:23:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JzFl8cEgARB6rwhiJomLHnH6txXf8KWteTAYS7mbM+o="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/759c384b-8401-45aa-a9ec-eaa558ced8d4.bjzlq46pqy.jpg",
+      "AssetFile": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\759c384b-8401-45aa-a9ec-eaa558ced8d4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72064"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JzFl8cEgARB6rwhiJomLHnH6txXf8KWteTAYS7mbM+o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 02:12:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bjzlq46pqy"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/759c384b-8401-45aa-a9ec-eaa558ced8d4.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JzFl8cEgARB6rwhiJomLHnH6txXf8KWteTAYS7mbM+o="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/759c384b-8401-45aa-a9ec-eaa558ced8d4.jpg",
+      "AssetFile": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\759c384b-8401-45aa-a9ec-eaa558ced8d4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72064"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JzFl8cEgARB6rwhiJomLHnH6txXf8KWteTAYS7mbM+o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 02:12:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JzFl8cEgARB6rwhiJomLHnH6txXf8KWteTAYS7mbM+o="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/804110a5-2dfb-4f3b-a5f3-6dc95a96c296.bjzlq46pqy.jpg",
+      "AssetFile": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\804110a5-2dfb-4f3b-a5f3-6dc95a96c296.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72064"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JzFl8cEgARB6rwhiJomLHnH6txXf8KWteTAYS7mbM+o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 10:45:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bjzlq46pqy"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/804110a5-2dfb-4f3b-a5f3-6dc95a96c296.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JzFl8cEgARB6rwhiJomLHnH6txXf8KWteTAYS7mbM+o="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/804110a5-2dfb-4f3b-a5f3-6dc95a96c296.jpg",
+      "AssetFile": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\804110a5-2dfb-4f3b-a5f3-6dc95a96c296.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72064"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JzFl8cEgARB6rwhiJomLHnH6txXf8KWteTAYS7mbM+o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 10:45:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JzFl8cEgARB6rwhiJomLHnH6txXf8KWteTAYS7mbM+o="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/9b954428-7ab6-446c-aaec-60bc9e6a8d0c.bjzlq46pqy.jpg",
+      "AssetFile": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\9b954428-7ab6-446c-aaec-60bc9e6a8d0c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72064"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JzFl8cEgARB6rwhiJomLHnH6txXf8KWteTAYS7mbM+o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 10:38:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bjzlq46pqy"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/9b954428-7ab6-446c-aaec-60bc9e6a8d0c.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JzFl8cEgARB6rwhiJomLHnH6txXf8KWteTAYS7mbM+o="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/9b954428-7ab6-446c-aaec-60bc9e6a8d0c.jpg",
+      "AssetFile": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\9b954428-7ab6-446c-aaec-60bc9e6a8d0c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72064"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JzFl8cEgARB6rwhiJomLHnH6txXf8KWteTAYS7mbM+o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 10:38:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JzFl8cEgARB6rwhiJomLHnH6txXf8KWteTAYS7mbM+o="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/9d72d8f5-d5cb-445e-9b5d-98c4d4d608a2.bjzlq46pqy.jpg",
+      "AssetFile": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\9d72d8f5-d5cb-445e-9b5d-98c4d4d608a2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72064"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JzFl8cEgARB6rwhiJomLHnH6txXf8KWteTAYS7mbM+o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 10:38:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bjzlq46pqy"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/9d72d8f5-d5cb-445e-9b5d-98c4d4d608a2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JzFl8cEgARB6rwhiJomLHnH6txXf8KWteTAYS7mbM+o="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/9d72d8f5-d5cb-445e-9b5d-98c4d4d608a2.jpg",
+      "AssetFile": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\9d72d8f5-d5cb-445e-9b5d-98c4d4d608a2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72064"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JzFl8cEgARB6rwhiJomLHnH6txXf8KWteTAYS7mbM+o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 10:38:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JzFl8cEgARB6rwhiJomLHnH6txXf8KWteTAYS7mbM+o="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/b8344ef5-7f07-4e2b-b42a-708336b5c6be.hquxtmjfbo.jpeg",
+      "AssetFile": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\b8344ef5-7f07-4e2b-b42a-708336b5c6be.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "265102"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2V64Slxn8Pt8Nk4uml7Uu55Dsb6GW+7w7zHgqB/tPTk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 01:33:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hquxtmjfbo"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/b8344ef5-7f07-4e2b-b42a-708336b5c6be.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2V64Slxn8Pt8Nk4uml7Uu55Dsb6GW+7w7zHgqB/tPTk="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/b8344ef5-7f07-4e2b-b42a-708336b5c6be.jpeg",
+      "AssetFile": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\b8344ef5-7f07-4e2b-b42a-708336b5c6be.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "265102"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2V64Slxn8Pt8Nk4uml7Uu55Dsb6GW+7w7zHgqB/tPTk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 01:33:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2V64Slxn8Pt8Nk4uml7Uu55Dsb6GW+7w7zHgqB/tPTk="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/b992b6b3-ea7a-4d44-8fb7-7f593acd3e46.jpg",
+      "AssetFile": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\b992b6b3-ea7a-4d44-8fb7-7f593acd3e46.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "208842"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Sd9siNcpm9nQOX7vDJZV8P8HbfUus6jRoKQTK+8vp9Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 01:28:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Sd9siNcpm9nQOX7vDJZV8P8HbfUus6jRoKQTK+8vp9Q="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/b992b6b3-ea7a-4d44-8fb7-7f593acd3e46.z997e2a540.jpg",
+      "AssetFile": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\b992b6b3-ea7a-4d44-8fb7-7f593acd3e46.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "208842"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Sd9siNcpm9nQOX7vDJZV8P8HbfUus6jRoKQTK+8vp9Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 01:28:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z997e2a540"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/b992b6b3-ea7a-4d44-8fb7-7f593acd3e46.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Sd9siNcpm9nQOX7vDJZV8P8HbfUus6jRoKQTK+8vp9Q="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/c37db1ff-9210-4b1b-8a90-2ead0e75045f.bjzlq46pqy.jpg",
+      "AssetFile": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\c37db1ff-9210-4b1b-8a90-2ead0e75045f.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72064"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JzFl8cEgARB6rwhiJomLHnH6txXf8KWteTAYS7mbM+o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 10:37:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bjzlq46pqy"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/c37db1ff-9210-4b1b-8a90-2ead0e75045f.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JzFl8cEgARB6rwhiJomLHnH6txXf8KWteTAYS7mbM+o="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/c37db1ff-9210-4b1b-8a90-2ead0e75045f.jpg",
+      "AssetFile": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\c37db1ff-9210-4b1b-8a90-2ead0e75045f.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72064"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JzFl8cEgARB6rwhiJomLHnH6txXf8KWteTAYS7mbM+o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 10:37:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JzFl8cEgARB6rwhiJomLHnH6txXf8KWteTAYS7mbM+o="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/c9757e85-a70e-4a7c-be18-bad8542c4c9e.bjzlq46pqy.jpg",
+      "AssetFile": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\c9757e85-a70e-4a7c-be18-bad8542c4c9e.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72064"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JzFl8cEgARB6rwhiJomLHnH6txXf8KWteTAYS7mbM+o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 10:33:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bjzlq46pqy"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/c9757e85-a70e-4a7c-be18-bad8542c4c9e.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JzFl8cEgARB6rwhiJomLHnH6txXf8KWteTAYS7mbM+o="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/c9757e85-a70e-4a7c-be18-bad8542c4c9e.jpg",
+      "AssetFile": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\c9757e85-a70e-4a7c-be18-bad8542c4c9e.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72064"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JzFl8cEgARB6rwhiJomLHnH6txXf8KWteTAYS7mbM+o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 10:33:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JzFl8cEgARB6rwhiJomLHnH6txXf8KWteTAYS7mbM+o="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/e527e7aa-fbb1-4e96-bccc-76dc6add29bd.hquxtmjfbo.jpeg",
+      "AssetFile": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\e527e7aa-fbb1-4e96-bccc-76dc6add29bd.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "265102"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2V64Slxn8Pt8Nk4uml7Uu55Dsb6GW+7w7zHgqB/tPTk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 01:41:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hquxtmjfbo"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/e527e7aa-fbb1-4e96-bccc-76dc6add29bd.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2V64Slxn8Pt8Nk4uml7Uu55Dsb6GW+7w7zHgqB/tPTk="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/e527e7aa-fbb1-4e96-bccc-76dc6add29bd.jpeg",
+      "AssetFile": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\e527e7aa-fbb1-4e96-bccc-76dc6add29bd.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "265102"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2V64Slxn8Pt8Nk4uml7Uu55Dsb6GW+7w7zHgqB/tPTk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 01:41:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2V64Slxn8Pt8Nk4uml7Uu55Dsb6GW+7w7zHgqB/tPTk="
+        }
+      ]
+    }
+  ]
 }

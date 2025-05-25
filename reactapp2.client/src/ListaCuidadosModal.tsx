@@ -8,6 +8,7 @@ interface Cuidado {
     nomeCuidado: string;
     descricao: string;
     frequencia: string;
+     animalId: number;
 }
 
 interface Props {
@@ -40,7 +41,7 @@ const ListaCuidadosModal: React.FC<Props> = ({ cuidados, onClose, onRefresh }) =
         setFiltro('');
         setCuidadosFiltrados(cuidados);
     };
-
+  
    const handleRemover = async (id: number) => {
     const result = await Swal.fire({
         title: 'Tem certeza?',
@@ -92,6 +93,7 @@ const ListaCuidadosModal: React.FC<Props> = ({ cuidados, onClose, onRefresh }) =
                         {cuidadosFiltrados.map((cuidado) => (
                             <li className='lista' key={cuidado.id}>
                                 <div className='listaCuidadosModal'>
+                                 
                                     <button className='editar' onClick={() => setCuidadoEditando(cuidado)}><i className="bi bi-pencil-square"></i> Editar</button>
                                     <button className='delete' onClick={() => handleRemover(cuidado.id)}><i className="bi bi-trash3"></i> Deletar</button>
                                     <div><b>Tipo de Cuidado:</b> {cuidado.nomeCuidado}</div>

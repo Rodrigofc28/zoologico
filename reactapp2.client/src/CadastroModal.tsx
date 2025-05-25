@@ -1,5 +1,4 @@
-{/*Desenvolvido por Rodrigo de Freitas Camargo*/}
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 interface Animal {
   nome: string;
@@ -8,6 +7,7 @@ interface Animal {
   especie: string;
   habitat: string;
   paisOrigem: string;
+  imagem: File | null;
 }
 
 interface Props {
@@ -18,6 +18,21 @@ interface Props {
 }
 
 const CadastroModal: React.FC<Props> = ({ form, setForm, cadastrarAnimal, onClose }) => {
+  const [imagePreview, setImagePreview] = useState<string | null>(null);
+
+  // Sempre que form.imagem mudar, atualiza o preview
+  useEffect(() => {
+    if (form.imagem) {
+      const previewUrl = URL.createObjectURL(form.imagem);
+      setImagePreview(previewUrl);
+
+      // Libera o objeto URL quando o componente desmontar ou imagem mudar
+      return () => URL.revokeObjectURL(previewUrl);
+    } else {
+      setImagePreview(null);
+    }
+  }, [form.imagem]);
+
   return (
     <div className="modal">
       <div className="modal-content">
@@ -59,6 +74,27 @@ const CadastroModal: React.FC<Props> = ({ form, setForm, cadastrarAnimal, onClos
           value={form.paisOrigem}
           onChange={e => setForm({ ...form, paisOrigem: e.target.value })}
         />
+        <input
+          type="file"
+          accept="image/*"
+          onChange={(e) => {
+            if (e.target.files && e.target.files[0]) {
+              setForm({ ...form, imagem: e.target.files[0] });
+            }
+          }}
+        />
+
+        {/* Mostra a prévia da imagem, se existir */}
+        {imagePreview && (
+          <div style={{ marginTop: 10 }}>
+            <img
+              src={imagePreview}
+              alt="Prévia da imagem"
+              style={{ maxWidth: '300px', maxHeight: '300px', borderRadius: 8 }}
+            />
+          </div>
+        )}
+
         <button onClick={cadastrarAnimal}>Cadastrar</button>
         <button onClick={onClose}>Fechar</button>
       </div>
@@ -67,3 +103,4 @@ const CadastroModal: React.FC<Props> = ({ form, setForm, cadastrarAnimal, onClos
 };
 
 export default CadastroModal;
+

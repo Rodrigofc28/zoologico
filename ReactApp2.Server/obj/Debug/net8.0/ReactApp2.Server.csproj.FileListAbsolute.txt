@@ -175,3 +175,5 @@ C:\Users\Usuário\source\repos\ReactApp2\ReactApp2.Server\bin\Debug\net8.0\React
 C:\Users\Usuário\source\repos\ReactApp2\ReactApp2.Server\bin\Debug\net8.0\ReactApp2.Server.pdb
 C:\Users\Usuário\source\repos\ReactApp2\ReactApp2.Server\obj\Debug\net8.0\ReactApp2.Server.genruntimeconfig.cache
 C:\Users\Usuário\source\repos\ReactApp2\ReactApp2.Server\obj\Debug\net8.0\ref\ReactApp2.Server.dll
+C:\Users\Usuário\source\repos\ReactApp2\ReactApp2.Server\obj\Debug\net8.0\ReactApp2.Server.sourcelink.json
+C:\Users\Usuário\source\repos\ReactApp2\ReactApp2.Server\bin\Debug\net8.0\ReactApp2.Server.staticwebassets.runtime.json

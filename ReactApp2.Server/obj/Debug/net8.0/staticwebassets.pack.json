@@ -1,0 +1,69 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\1dbecec2-3a78-43d7-baa9-98bb8944532f.jpg",
+      "PackagePath": "staticwebassets\\uploads\\1dbecec2-3a78-43d7-baa9-98bb8944532f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\263629b4-9a63-497e-b252-fbb8d375513d.jpg",
+      "PackagePath": "staticwebassets\\uploads\\263629b4-9a63-497e-b252-fbb8d375513d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\759c384b-8401-45aa-a9ec-eaa558ced8d4.jpg",
+      "PackagePath": "staticwebassets\\uploads\\759c384b-8401-45aa-a9ec-eaa558ced8d4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\804110a5-2dfb-4f3b-a5f3-6dc95a96c296.jpg",
+      "PackagePath": "staticwebassets\\uploads\\804110a5-2dfb-4f3b-a5f3-6dc95a96c296.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\9b954428-7ab6-446c-aaec-60bc9e6a8d0c.jpg",
+      "PackagePath": "staticwebassets\\uploads\\9b954428-7ab6-446c-aaec-60bc9e6a8d0c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\9d72d8f5-d5cb-445e-9b5d-98c4d4d608a2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\9d72d8f5-d5cb-445e-9b5d-98c4d4d608a2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\b8344ef5-7f07-4e2b-b42a-708336b5c6be.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\b8344ef5-7f07-4e2b-b42a-708336b5c6be.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\b992b6b3-ea7a-4d44-8fb7-7f593acd3e46.jpg",
+      "PackagePath": "staticwebassets\\uploads\\b992b6b3-ea7a-4d44-8fb7-7f593acd3e46.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\c37db1ff-9210-4b1b-8a90-2ead0e75045f.jpg",
+      "PackagePath": "staticwebassets\\uploads\\c37db1ff-9210-4b1b-8a90-2ead0e75045f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\c9757e85-a70e-4a7c-be18-bad8542c4c9e.jpg",
+      "PackagePath": "staticwebassets\\uploads\\c9757e85-a70e-4a7c-be18-bad8542c4c9e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuário\\source\\repos\\ReactApp2\\ReactApp2.Server\\wwwroot\\uploads\\e527e7aa-fbb1-4e96-bccc-76dc6add29bd.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\e527e7aa-fbb1-4e96-bccc-76dc6add29bd.jpeg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ReactApp2.Server.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ReactApp2.Server.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ReactApp2.Server.props",
+      "PackagePath": "build\\ReactApp2.Server.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ReactApp2.Server.props",
+      "PackagePath": "buildMultiTargeting\\ReactApp2.Server.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ReactApp2.Server.props",
+      "PackagePath": "buildTransitive\\ReactApp2.Server.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
