@@ -40,8 +40,9 @@ estando na pasta ReactApp2.Server
 ```
 ## Imagem da Tela principal 
 ![Logo do Projeto](./imagens/telaInicial.png)
+![Logo do Projeto](./imagens/imagemzoo2.png)
 ## Imagem da Tela Cadastro de animais
-![Logo do Projeto](./imagens/TelaCadastro.png)
+![Logo do Projeto](./imagens/imagemzoo.png)
 ## Imagem da Tela cadastro de cuidados
 ![Logo do Projeto](./imagens/cadastroCuidados.png)
 ## Imagem da Tela lista de cuidados 
